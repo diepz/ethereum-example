@@ -15,3 +15,13 @@ http://0.0.0.0:3000/
 ```bash
 Control + C
 ```
+
+#Check logs:
+```bash
+docker-compose logs -f
+```
+
+#Exec to app in docker
+```bash
+docker exec -it app bash
+```
