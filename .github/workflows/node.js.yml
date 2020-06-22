@@ -26,3 +26,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm install
     - run: npx pm2 start ecosystem.config.js --no-daemon
+    - run: curl -i http://0.0.0.0:3000/create-wallet
+    - run: curl -i http://0.0.0.0:3000/create-transaction
