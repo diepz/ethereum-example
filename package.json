@@ -1,0 +1,22 @@
+{
+  "name": "ethereum-example",
+  "version": "1.0.0",
+  "description": "Tomosia web3js example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chien.le@tomosia.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chien-tomosia/ethereum-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chien-tomosia/ethereum-example/issues"
+  },
+  "homepage": "https://github.com/chien-tomosia/ethereum-example#readme"
+}
